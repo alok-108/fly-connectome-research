@@ -1,0 +1,12 @@
+alpha,is_stable,regime,mean_firing_rate_hz,active_neuron_fraction,recruited_unstimulated_count,recruited_unstimulated_fraction,post_stim_rate_hz,v_max_observed,status_message
+0.0,True,Externally Driven (Weak Coupling),2.25,0.25,0,0.0,0.0,-50.0,Simulation completed normally.
+0.001,True,Externally Driven (Weak Coupling),2.25,0.25,0,0.0,0.0,-48.11,Simulation completed normally.
+0.0025,True,Externally Driven (Weak Coupling),2.25,0.25,0,0.0,0.0,-45.19,Simulation completed normally.
+0.005,True,Externally Driven (Weak Coupling),2.25,0.25,0,0.0,0.0,-39.38,Simulation completed normally.
+0.0075,True,Externally Driven (Weak Coupling),2.26,0.251,1,0.0013,0.0,-34.1,Simulation completed normally.
+0.01,True,Externally Driven (Weak Coupling),2.28,0.256,6,0.008,0.0,-28.78,Simulation completed normally.
+0.015,True,Recurrent Recruitment,2.68,0.278,28,0.0373,0.0,-18.41,Simulation completed normally.
+0.02,True,Sustained Recurrent Activity,4.41,0.396,146,0.1947,0.06,-19.15,Simulation completed normally.
+0.03,True,Sustained Recurrent Activity,19.48,0.903,653,0.8707,1.5575,9.8,Simulation completed normally.
+0.04,False,Unstable,0.88,0.705,455,0.6067,0.0,123.32,Simulation unstable under current parameterization: Membrane potential exploded (>120 mV) at t=267.5 ms.
+0.05,False,Unstable,0.34,0.341,92,0.1227,0.0,123.25,Simulation unstable under current parameterization: Membrane potential exploded (>120 mV) at t=234.0 ms.

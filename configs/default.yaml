@@ -1,0 +1,65 @@
+# ==============================================================================
+# Fly Connectome Research Configuration
+# Project: Virtual Lesion Analysis of a Drosophila Connectome Subnetwork
+# ==============================================================================
+
+# Hardware / Environment Constraints
+hardware:
+  target_device: "cpu"  # Local execution on Intel Core i5-1235U
+  max_ram_gb: 16.0
+  chunk_size_rows: 100000  # Streamed processing for low-memory footprint
+
+# Dataset Configuration
+data:
+  default_source: "fly_hemibrain"  # Options: 'fly_hemibrain', 'flywire_sample'
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  sources:
+    fly_hemibrain:
+      url: "https://networks.skewed.de/net/fly_hemibrain/files/fly_hemibrain.csv.zip"
+      archive_name: "fly_hemibrain.csv.zip"
+      description: "Janelia FlyEM Drosophila Central Brain Connectome (21,739 neurons, 4.26M synapses)"
+    flywire_annotations:
+      url: "https://raw.githubusercontent.com/flyconnectome/flywire_annotations/main/supplemental_files/Supplemental_file1_neuron_annotations.tsv"
+      file_name: "Supplemental_file1_neuron_annotations.tsv"
+      description: "FlyWire Whole-Brain v783 Neuron Annotations (139,255 neurons)"
+
+# Subnetwork Extraction
+subnetwork:
+  max_neurons: 1000  # Default subnetwork cap (1,000 neurons) for laptop RAM safety
+  selection_strategy: "highest_degree"  # Options: 'highest_degree', 'random', 'cell_type', 'neighborhood'
+  min_synapse_threshold: 1  # Minimum synapse weight for inclusion
+  target_roi: null  # Optional neuropil filter (e.g., 'MB', 'CX', 'AL', 'EB')
+  target_cell_type: null  # Optional cell type filter
+  neighborhood_seed_neuron: null  # Root/body ID for neighborhood extraction
+  neighborhood_hops: 2
+
+# Simulation Parameters (Computational Spiking Model)
+simulation:
+  model_type: "LIF"
+  scientific_label: "connectome-constrained computational simulation"
+  duration_ms: 200.0  # Total duration in milliseconds
+  dt_ms: 0.1  # Integration timestep
+  tau_m_ms: 20.0  # Membrane time constant
+  v_rest_mv: -65.0  # Resting potential
+  v_reset_mv: -70.0  # Reset potential
+  v_thresh_mv: -50.0  # Action potential threshold
+  t_ref_ms: 2.0  # Refractory period
+  synaptic_weight_scale: 0.05  # Scaling factor translating synapse count to EPSP amplitude
+  external_stimulus:
+    fraction_stimulated: 0.15  # Fraction of neurons receiving external sensory input
+    amplitude_current: 12.0  # Injected current (arbitrary units / pA equivalent)
+    noise_sigma: 1.5  # Gaussian background membrane noise
+
+# Virtual Lesion Experiment Parameters
+lesion:
+  lesion_rates: [0.01, 0.05, 0.10, 0.20]  # 1%, 5%, 10%, 20% ablation
+  modes: ["random", "hub"]
+  num_random_seeds: 5  # Multiple random seeds for statistical rigor
+  default_seed: 42
+
+# Logging and Artifact Directories
+paths:
+  figures_dir: "results/figures"
+  tables_dir: "results/tables"
+  logs_dir: "results/logs"

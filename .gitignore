@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing and coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Large raw dataset archives (download instructions in data/README.md)
+data/raw/*
+!data/raw/.gitkeep
+
+# Temporary / intermediate data formats
+data/processed/*.feather
+data/processed/*.zip
+data/processed/*.tmp
+
+# Logs and runtime diagnostics
+*.log
+results/logs/*.log
+results/logs/*.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and local environment files
+.env
+.env.*
+*.key
+*.pem
+*.token

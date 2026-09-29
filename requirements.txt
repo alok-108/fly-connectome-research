@@ -1,0 +1,29 @@
+# ==============================================================================
+# Fly Connectome Research Dependencies
+# Lightweight, reproducible stack optimized for local CPU (16 GB RAM)
+# ==============================================================================
+
+# Core Numerical & Scientific Computing
+numpy>=1.26.0
+scipy>=1.12.0
+pandas>=2.2.0
+pyarrow>=15.0.0
+
+# Graph Theory & Network Analysis
+networkx>=3.2.0
+
+# Plotting & Visualization
+matplotlib>=3.8.0
+
+# Configuration & Testing
+pyyaml>=6.0.1
+pytest>=8.0.0
+
+# Interactive Exploration
+jupyterlab>=4.0.0
+ipywidgets>=8.1.0
+
+# Optional / Extended Simulation Toolkits (Colab / GPU scaling)
+# Note: Brian2 and PyTorch can be enabled for larger clusters or specialized runtimes.
+# torch>=2.2.0
+# brian2>=2.7.0

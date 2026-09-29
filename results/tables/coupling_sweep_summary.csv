@@ -1,0 +1,56 @@
+alpha,stimulus_fraction,is_stable,regime,mean_firing_rate_hz,active_neuron_fraction,stimulated_rate_hz,unstimulated_rate_hz,recruited_unstimulated_count,recruited_unstimulated_fraction,stim_window_rate_hz,post_stim_rate_hz,v_max_observed,total_spikes
+0.0,0.25,True,Externally Driven (Weak Coupling),2.25,0.25,9.0,0.0,0,0.0,5.625,0.0,-50.0,2250
+0.001,0.25,True,Externally Driven (Weak Coupling),2.25,0.25,9.0,0.0,0,0.0,5.625,0.0,-48.11,2250
+0.0025,0.25,True,Externally Driven (Weak Coupling),2.25,0.25,9.0,0.0,0,0.0,5.625,0.0,-45.19,2250
+0.005,0.25,True,Externally Driven (Weak Coupling),2.25,0.25,9.0,0.0,0,0.0,5.625,0.0,-39.38,2250
+0.0075,0.25,True,Externally Driven (Weak Coupling),2.26,0.251,9.0,0.012,1,0.0013,5.6475,0.0,-34.1,2259
+0.01,0.25,True,Externally Driven (Weak Coupling),2.28,0.256,9.0,0.0453,6,0.008,5.71,0.0,-28.78,2284
+0.015,0.25,True,Recurrent Recruitment,2.68,0.278,9.964,0.256,28,0.0373,6.7075,0.0,-18.41,2683
+0.02,0.25,True,Sustained Recurrent Activity,4.41,0.396,12.84,1.596,146,0.1947,10.9575,0.06,-19.15,4407
+0.03,0.25,True,Sustained Recurrent Activity,19.48,0.903,28.008,16.6333,653,0.8707,47.135,1.5575,9.8,19477
+0.04,0.25,False,Unstable,0.88,0.705,1.548,0.6573,455,0.6067,2.2,0.0,123.32,880
+0.05,0.25,False,Unstable,0.34,0.341,0.996,0.1227,92,0.1227,0.8525,0.0,123.25,341
+0.0,0.1,True,Externally Driven (Weak Coupling),0.9,0.1,9.0,0.0,0,0.0,2.25,0.0,-50.0,900
+0.001,0.1,True,Externally Driven (Weak Coupling),0.9,0.1,9.0,0.0,0,0.0,2.25,0.0,-49.37,900
+0.0025,0.1,True,Externally Driven (Weak Coupling),0.9,0.1,9.0,0.0,0,0.0,2.25,0.0,-49.13,900
+0.005,0.1,True,Externally Driven (Weak Coupling),0.9,0.1,9.0,0.0,0,0.0,2.25,0.0,-47.53,900
+0.0075,0.1,True,Externally Driven (Weak Coupling),0.9,0.1,9.0,0.0,0,0.0,2.25,0.0,-46.84,900
+0.01,0.1,True,Externally Driven (Weak Coupling),0.9,0.1,9.0,0.0,0,0.0,2.25,0.0,-47.23,900
+0.015,0.1,True,Externally Driven (Weak Coupling),0.91,0.102,9.0,0.0111,2,0.0022,2.275,0.0,-45.35,910
+0.02,0.1,True,Sustained Recurrent Activity,1.16,0.127,10.41,0.1356,27,0.03,2.9,0.0075,-27.16,1163
+0.03,0.1,True,Sustained Recurrent Activity,10.0,0.77,20.72,8.8089,670,0.7444,24.795,0.205,11.43,10000
+0.04,0.1,True,Recurrent Recruitment,27.78,0.96,36.68,26.7878,860,0.9556,69.4425,0.0,60.68,27777
+0.05,0.1,False,Unstable,18.64,0.988,21.55,18.3178,888,0.9867,46.6025,0.0,166.8,18641
+0.0,0.05,True,Externally Driven (Weak Coupling),0.45,0.05,9.0,0.0,0,0.0,1.125,0.0,-50.0,450
+0.001,0.05,True,Externally Driven (Weak Coupling),0.45,0.05,9.0,0.0,0,0.0,1.125,0.0,-49.77,450
+0.0025,0.05,True,Externally Driven (Weak Coupling),0.45,0.05,9.0,0.0,0,0.0,1.125,0.0,-49.16,450
+0.005,0.05,True,Externally Driven (Weak Coupling),0.45,0.05,9.0,0.0,0,0.0,1.125,0.0,-48.25,450
+0.0075,0.05,True,Externally Driven (Weak Coupling),0.45,0.05,9.0,0.0,0,0.0,1.125,0.0,-47.25,450
+0.01,0.05,True,Externally Driven (Weak Coupling),0.45,0.05,9.0,0.0,0,0.0,1.125,0.0,-47.58,450
+0.015,0.05,True,Externally Driven (Weak Coupling),0.45,0.05,9.0,0.0,0,0.0,1.125,0.0,-46.16,450
+0.02,0.05,True,Externally Driven (Weak Coupling),0.46,0.051,9.02,0.0042,1,0.0011,1.1375,0.0,-44.84,455
+0.03,0.05,True,Recurrent Recruitment,0.58,0.071,9.56,0.1095,21,0.0221,1.455,0.0,-39.98,582
+0.04,0.05,False,Unstable,10.24,0.95,13.26,10.08,900,0.9474,25.5975,0.0,123.12,10239
+0.05,0.05,True,Recurrent Recruitment,50.38,0.988,55.04,50.1358,938,0.9874,125.9525,0.0,110.0,50381
+0.0,0.01,True,Externally Driven (Weak Coupling),0.09,0.01,9.0,0.0,0,0.0,0.225,0.0,-50.0,90
+0.001,0.01,True,Externally Driven (Weak Coupling),0.09,0.01,9.0,0.0,0,0.0,0.225,0.0,-50.0,90
+0.0025,0.01,True,Externally Driven (Weak Coupling),0.09,0.01,9.0,0.0,0,0.0,0.225,0.0,-49.95,90
+0.005,0.01,True,Externally Driven (Weak Coupling),0.09,0.01,9.0,0.0,0,0.0,0.225,0.0,-49.84,90
+0.0075,0.01,True,Externally Driven (Weak Coupling),0.09,0.01,9.0,0.0,0,0.0,0.225,0.0,-49.74,90
+0.01,0.01,True,Externally Driven (Weak Coupling),0.09,0.01,9.0,0.0,0,0.0,0.225,0.0,-49.63,90
+0.015,0.01,True,Externally Driven (Weak Coupling),0.09,0.01,9.0,0.0,0,0.0,0.225,0.0,-49.42,90
+0.02,0.01,True,Externally Driven (Weak Coupling),0.09,0.01,9.0,0.0,0,0.0,0.225,0.0,-49.19,90
+0.03,0.01,True,Externally Driven (Weak Coupling),0.09,0.01,9.0,0.0,0,0.0,0.225,0.0,-48.77,90
+0.04,0.01,True,Externally Driven (Weak Coupling),0.09,0.01,9.0,0.0,0,0.0,0.225,0.0,-48.35,90
+0.05,0.01,False,Unstable,50.79,0.986,48.6,50.8121,975,0.9848,102.29,24.685,181.5,50790
+0.0,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0
+0.001,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0
+0.0025,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0
+0.005,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0
+0.0075,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0
+0.01,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0
+0.015,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0
+0.02,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0
+0.03,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0
+0.04,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0
+0.05,0.0,True,Externally Driven (Weak Coupling),0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,-64.63,0

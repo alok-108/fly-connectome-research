@@ -1,0 +1,2 @@
+dataset_name,dataset_version,selection_strategy,random_seed,total_neurons_in_source,total_connections_in_source,selected_neurons,selected_edges,total_synaptic_weight,graph_density,average_total_degree,max_total_degree,average_in_degree,average_out_degree,weakly_connected_components,strongly_connected_components,largest_wcc_size,largest_wcc_fraction,runtime_seconds,peak_ram_mb
+Janelia FlyEM Drosophila Hemibrain,v1.2.1,highest_degree,42,21739,4259624,1000,113089,937685.0,0.1132022022022022,226.178,924,113.089,113.089,1,1,1000,1.0,18.363,77.67

@@ -1,0 +1,2 @@
+dataset_name,dataset_version,subnetwork_neurons,subnetwork_edges,selection_strategy,random_seed,duration_ms,dt_ms,num_time_steps,synaptic_weight_scale,external_stimulus_mode,external_current,total_spikes,spikes_per_neuron,mean_firing_rate_hz,median_firing_rate_hz,max_firing_rate_hz,firing_rate_variance,active_neuron_fraction,is_stable,status_message,runtime_seconds,peak_ram_mb
+Janelia FlyEM Drosophila Hemibrain,v1.2.1,1000,113089,highest_degree,42,1000.0,0.5,2000,0.01,pulse,18.0,2283,2.28,2.28,0.0,9.0,15.28,0.255,True,Simulation completed normally.,0.622,1.76
