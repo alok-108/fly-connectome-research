@@ -22,9 +22,10 @@ nosetests.xml
 coverage.xml
 *.cover
 
-# Large raw dataset archives (download instructions in data/README.md)
+# Raw dataset archive (16 MB public connectome archive)
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/fly_hemibrain.csv.zip
 
 # Temporary / intermediate data formats
 data/processed/*.feather
